@@ -107,11 +107,35 @@
                             <constraint firstItem="GAO-Cl-Wes" firstAttribute="top" secondItem="O2f-Z6-LCb" secondAttribute="bottom" id="8SD-s4-jEu"/>
                             <constraint firstItem="DhE-aG-cLN" firstAttribute="height" secondItem="O2f-Z6-LCb" secondAttribute="height" id="I6I-Uc-d52"/>
                             <constraint firstAttribute="trailing" secondItem="O2f-Z6-LCb" secondAttribute="trailing" id="J3n-ar-q44"/>
+                            <constraint firstItem="DhE-aG-cLN" firstAttribute="width" secondItem="O2f-Z6-LCb" secondAttribute="width" id="Kl8-86-BaC"/>
                             <constraint firstItem="DhE-aG-cLN" firstAttribute="top" secondItem="SYR-Wa-9uf" secondAttribute="bottom" id="QZb-9l-ECL"/>
                             <constraint firstItem="O2f-Z6-LCb" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leading" id="Sal-27-dBS"/>
                             <constraint firstItem="DhE-aG-cLN" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leading" id="Txp-4M-dHn"/>
+                            <constraint firstItem="GAO-Cl-Wes" firstAttribute="top" secondItem="DhE-aG-cLN" secondAttribute="bottom" id="Zzv-yj-s3f"/>
+                            <constraint firstItem="O2f-Z6-LCb" firstAttribute="leading" secondItem="DhE-aG-cLN" secondAttribute="trailing" id="b4N-38-t7P"/>
+                            <constraint firstItem="O2f-Z6-LCb" firstAttribute="top" secondItem="SYR-Wa-9uf" secondAttribute="bottom" id="lMn-bm-P0T"/>
                             <constraint firstAttribute="trailing" secondItem="DhE-aG-cLN" secondAttribute="trailing" id="ozI-MV-wNf"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Kl8-86-BaC"/>
+                                <exclude reference="b4N-38-t7P"/>
+                                <exclude reference="lMn-bm-P0T"/>
+                                <exclude reference="Zzv-yj-s3f"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="I6I-Uc-d52"/>
+                                <include reference="Kl8-86-BaC"/>
+                                <exclude reference="ozI-MV-wNf"/>
+                                <exclude reference="7tc-hf-Qa5"/>
+                                <exclude reference="Sal-27-dBS"/>
+                                <include reference="b4N-38-t7P"/>
+                                <include reference="lMn-bm-P0T"/>
+                                <include reference="Zzv-yj-s3f"/>
+                            </mask>
+                        </variation>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="mOI-FS-AaM"/>
