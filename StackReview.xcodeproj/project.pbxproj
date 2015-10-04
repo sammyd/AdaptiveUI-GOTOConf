@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		22228A6D1B43EB0D009DB1C2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22228A6C1B43EB0D009DB1C2 /* Colors.swift */; };
 		222BD2B01B3C3CE900A85BE7 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BD2AF1B3C3CE900A85BE7 /* Label.swift */; };
-		222BD2B21B3C4DE400A85BE7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BD2B11B3C4DE400A85BE7 /* AboutViewController.swift */; };
 		22A7E56E1B3AE0E600F269A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7E56D1B3AE0E600F269A3 /* AppDelegate.swift */; };
 		22A7E5701B3AE0E600F269A3 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7E56F1B3AE0E600F269A3 /* MasterViewController.swift */; };
 		22A7E5721B3AE0E600F269A3 /* PancakeHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7E5711B3AE0E600F269A3 /* PancakeHouseViewController.swift */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		22228A6C1B43EB0D009DB1C2 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		222BD2AF1B3C3CE900A85BE7 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
-		222BD2B11B3C4DE400A85BE7 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		22A7E56A1B3AE0E600F269A3 /* StackReview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackReview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A7E56D1B3AE0E600F269A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22A7E56F1B3AE0E600F269A3 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 			children = (
 				22A7E56F1B3AE0E600F269A3 /* MasterViewController.swift */,
 				22A7E5711B3AE0E600F269A3 /* PancakeHouseViewController.swift */,
-				222BD2B11B3C4DE400A85BE7 /* AboutViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -196,7 +193,6 @@
 				22228A6D1B43EB0D009DB1C2 /* Colors.swift in Sources */,
 				22A7E5721B3AE0E600F269A3 /* PancakeHouseViewController.swift in Sources */,
 				222BD2B01B3C3CE900A85BE7 /* Label.swift in Sources */,
-				222BD2B21B3C4DE400A85BE7 /* AboutViewController.swift in Sources */,
 				22A7E5891B3B122400F269A3 /* PancakeHouseTableViewCell.swift in Sources */,
 				22A7E5701B3AE0E600F269A3 /* MasterViewController.swift in Sources */,
 				22A7E56E1B3AE0E600F269A3 /* AppDelegate.swift in Sources */,
